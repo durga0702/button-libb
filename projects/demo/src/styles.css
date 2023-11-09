@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes spin {
+    to {
+      transform:rotate(1turn)
+    }
+  }
+.animate-spin {
+   animation: spin 1s linear infinite;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.75rem;
+  margin-left: -0.25rem;
+}
+.opacity-75 {
+    opacity: .75;
+  }
+  .opacity-25 {
+    opacity: .25;
+  }
